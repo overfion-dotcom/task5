@@ -133,7 +133,7 @@ variable "asg_max_size" {
 variable "asg_desired_capacity" {
   description = "Desired number of instances in ASG"
   type        = number
-  default     = 2
+  default     = 0
 }
 
 variable "cpu_target_value" {
